@@ -3,5 +3,27 @@ ul  {
     margin: 0;
     padding: 0;
     background-color:black;
+    overflow: hidden;
 }
 
+li  {
+    float: left;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 16px;
+    display: block;
+}
+
+li a:hover {
+    background-color:rgb(50, 50, 50)
+}
+ 
+.active {
+    background-color:rgb(89, 189, 104)
+}
+.moveright {
+    float: right;
+}
